@@ -1,0 +1,190 @@
+
+
+h1{
+    
+    color:rgb(255, 225, 0);
+    padding: 20px;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color:rgb(37, 39, 16);
+    color:rgb(97, 73, 20);
+    padding: 20px;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    background-color:rgb(238, 211, 144);
+    color:rgb(61, 45, 29);
+    padding:10px;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+i{
+    background-color:rgb(216, 194, 134);
+    color:rgb(35, 62, 62);
+    padding:1px;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    text-align:underline
+}
+header{
+background-color:rgb(51, 46, 40);
+color:chocolate;
+text-align:center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding:20px;
+}
+
+p{
+ background-color:rgb(150, 144, 90) ;
+    color:rgb(255, 211, 80);
+    padding:20px;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ul{
+    
+    color:darkorange;
+    padding:20px;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h6{
+    background-color:rgb(51, 46, 40);
+    
+}
+
+.artigo1{
+    background-color:rgb(150, 144, 90);
+
+}
+.artigo2{
+    background-color:rgb(150, 144, 90);
+    
+}
+.artigo3{
+    background-color:rgb(150, 144, 90);
+    
+}
+.artigo4{
+    background-color:rgb(150, 144, 90);
+    
+}
+.sla{
+    background-color:rgb(238, 211, 144);
+}
+footer{
+    background-color:rgb(238, 226, 196);
+}
+.fundo{
+    background-color:black;
+    padding: 20px;
+}
+.me{
+    background-color:rgb(22, 49, 40)
+}
+.p{
+    background-color:rgb(35, 48, 22);
+    color:aqua;
+    padding:20px;
+}
+.a{
+    background-color:rgb(150, 144, 90);
+    color:rgb(150, 144, 90);
+}
+.título{
+    background-color:rgb(92, 86, 37);
+    padding:20px;
+}
+.b{
+   color:rgb(0, 0, 0);
+   padding:1px;
+}
+    .marcar{
+        background-color:rgb(148, 161, 125)
+    }
+    
+.mark1{
+    background-color: aquamarine;
+}
+.paragrafo2{
+    color: rgb(0, 0, 0);
+}
+.avante{
+    background-color:rgb(53, 61, 56);
+    color:gold;
+    padding:15px;
+}
+.conversa{
+    background-color:rgb(19, 27, 15);
+    color:rgb(136, 255, 0);
+    padding:35px;
+}
+.ok{
+    background-color:rgb(53, 61, 56);
+    color:gold;
+}
+.fim{
+    background-color:rgb(53, 61, 56);
+    color:aliceblue;
+}
+.ab{
+    background-color:rgb(26, 32, 15);
+    color:aquamarine;
+    padding:10px;
+}
+.ae{
+    background-color:rgb(20, 36, 28);
+    color:aquamarine;
+    padding:10px;
+}
+.ue{
+    background-color:rgb(0, 0, 0);
+    color:aliceblue;
+    padding:50px;
+}
+.eu{
+    background-color:rgb(34, 78, 64);
+    color:rgb(118, 255, 214);
+    padding:20px;
+}
+.pe{
+    background-color:rgb(19, 153, 108);
+    color:rgb(255, 255, 255);
+    padding:20px;
+}
+.meia{
+    background-color:rgb(19, 153, 108);
+    color:rgb(255,255,255);
+    padding:20px;
+}
+.meu{
+    background-color:rgb(18, 119, 85);
+    color:rgb(255, 255, 255);
+    padding:10px;
+}
+.tu{
+    background-color:rgb(9, 97, 68);
+    color:rgb(255, 255, 255);
+    padding:10px;
+}
+.kk{
+    background-color:rgb(10, 56, 42);
+    color:rgb(255, 255, 255);
+    padding:10px;
+
+}
+.joy{
+    background-color:rgb(36, 44, 33);
+    color:rgb(207, 240, 240);
+    padding:20px
+}
+.seu{
+    background-color:rgb(25, 32, 39);
+    color:rgb(232, 238, 176);
+    padding:20px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criando gírias da rpzd</title>
+    <!-- fazendo vchamada externa do arquivo javaScript-->
+    <script src="logica.js"></script>
+    
+        <body style="background-color:rgb(3, 11, 88); 
+        text-align:center; 
+        color:rgb(78, 78, 247); 
+        font-family:'Times New Roman', Times, serif;
+         padding:0; 
+         justify-items: center;
+          align-items: center;
+           height: 100vh;
+           display: flex;
+           text-align:center;
+           border-radius:350px;
+           margin:0;
+           ">
+           <h1 style="background-color:aqua;"></h1>
+           <input style="padding:165px; background-color:rgb(3, 11, 88); border: none;">
+
+
+       
+   
+            
+    </style>
+</head>
+<body>
+    <div style="text-align:center; 
+     padding:30px; 
+     background-color:rgb(184, 214, 241);
+      border:2px; 
+      border-radius:360px;
+       align-items: center;
+        justify-content: center;
+        ">
+        
+
+     <h1> Escreva sua gíria:</h1>
+     <!-- campo de entrada de texto -->
+    <input style=" padding:10px; /* espaçamento interno no campo de texto*/
+    width: 59%; /* largura do campo em relaçao ao container*/
+    margin-bottom: 10px; /*espaçamenbto inferior*/
+    border: 1px solid #ccc; /* borda cinza clara*/
+    border-radius: 5px; /* borda arredondada */
+"type="text" id="giriasInput" placeholder="Insira aqui sua gíria parça">
+    <!-- criando um botão que chama a função JavaScript ao ser clicado -->
+    <button style="padding: 10px;
+    background-color:rgb(0, 14, 32);
+color:rgb(20, 221, 137);
+border: none; 
+border-radius: 12px; 
+cursor: pointer;"  
+onclick="adicionandoGiria()"> Adicionar Gíria</button>
+    <!-- Criando uma área para aparecer os resultados -->
+    <div id="resultados"></div>
+
+    </div>
+  
+
+</body>
+</html>

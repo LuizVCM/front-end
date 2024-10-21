@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de CSS interno</title>
+    <style>
+        p{
+            color:rgb(85, 138, 74);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:18px;
+        }
+        body{
+    font-family:Georgia, 'Times New Roman', Times, serif; /*definindo fonte*/
+    background-color:rgb(4, 24, 49);
+    margin:0; /* remove as margens*/
+    padding: 0; /*remove o espaçamento interno*/
+    display: flex; /*utiliza os istemas de layout flexível*/
+    justify-content: center; /* centralizar horizontemente*/
+    align-items: center; /* centralizar o cionteúdo verticalmente*/
+    height: 100vh; /* define que a altura seja 100% da tela*/
+    
+
+}
+/* estilo para conteiner principal */
+.container{
+    text-align: center; /* centralizar o texto dentro do conteiner*/
+    background-color:#afebfd; /* fundo do conteiner*/
+    padding:45px; /* espaçamento interno do conteiner*/
+    border-radius: 350px; /*borda arredondada */
+
+}
+
+/* estilo para o título da página*/
+h1{
+    color: #0c0968;
+}
+/* Estilo para o campo de entrada  Input*/
+input{
+    padding:10px; /* espaçamento interno no campo de texto*/
+    width: 59%; /* largura do campo em relaçao ao container*/
+    margin-bottom: 10px; /*espaçamenbto inferior*/
+    border: 1px solid #ccc; /* borda cinza clara*/
+    border-radius: 5px; /* borda arredondada */
+
+}
+/*estilizando o botão */
+button{
+    
+    padding: 10px;/* espaçamento interno do botão*/
+    background-color:rgb(0, 14, 32); /* cor de fundo*/
+color:rgb(20, 221, 137); /*cor do texto */
+border: none; /* remove a borda padrão */
+border-radius: 12px; /*borda arredondada*/
+cursor: pointer; /* muda o cursor para mãozinha ao passar no botão*/
+
+}
+
+/* efeito hover quan do passar o mouse sobre o botão*/
+button:hover{
+    background-color:rgb(19, 21, 126);
+}
+
+/* estilizando a área onde as gírias serão exibidas */
+
+#resultados{
+    margin-top: 29px; /* espaçamento superior*/
+     font-size: 18px; /*tamanho da fonte para o texto*/
+     color:rgb(51, 61, 148); /* cor de texto cinza escuro*/
+     
+}
+
+
+    </style>
+    <!-- fazendo vchamada externa do arquivo javaScript-->
+    <script src="logica.js"></script>
+    <!-- fazendo chamada do CSS-->  
+   
+</head>
+<body>
+    <style>
+       
+    </style>
+    <div class="container">
+     <h1> Escreva sua gíria:</h1>
+     <!-- campo de entrada de texto -->
+    <input type="text" id="giriasInput" placeholder="Insira aqui sua gíria parça">
+    <!-- criando um botão que chama a função JavaScript ao ser clicado -->
+    <button onclick="adicionandoGiria()"> Adicionar Gíria</button>
+    <!-- Criando uma área para aparecer os resultados -->
+    <div id="resultados"></div>
+
+    </div>
+  
+
+</body>
+</html>

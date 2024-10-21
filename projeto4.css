@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(240, 199, 124);
+}
+.container{
+   
+    background-color:rgb(255, 255, 255);
+    border: 5px solid red;
+    width:100px;
+    height:500px;
+    top:100px;
+    left:300px;
+    right:100px;
+    padding: 100px;
+    border-radius:70px;
+    position:relative;
+    text-align:center;
+}
+
+
